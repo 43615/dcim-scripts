@@ -12,3 +12,5 @@ To not mess up the existing working environment when executed using `&`, "safe" 
 - Document all behaviour that doesn't meet the above guidelines.
 ## Minimized versions
 The `min` directory contains functionally identical versions of scripts with all comments and unnecessary whitespace removed.
+## List of scripts
+- `brainfuck.dcim`: Brainfuck interpreter. `[` and `]` are replaced with `(` and `)`.
