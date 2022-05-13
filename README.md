@@ -10,5 +10,3 @@ To not mess up the existing working environment when executed using `&`, "safe" 
   - Clean up registers after finishing (`LR` and `C`).
 - Document their expected inputs and outputs.
 - Document all behaviour that doesn't meet the above guidelines.
-## Minimized versions
-The `min` directory contains copies of the scripts with all comments and unnecessary whitespace removed.
