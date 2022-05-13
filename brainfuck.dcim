@@ -23,7 +23,7 @@
 [1Sn [li1+dsi ;ia d[(]a=1 [)]a=2 ln0!=0]S0 [ln1+sn]S1 [ln1-sn]S2 ld;d0=0 LnL0L1L2 4C]S(
 [1Sn [li1-dsi ;ia d[)]a=1 [(]a=2 ln0!=0]S0 [ln1+sn]S1 [ln1-sn]S2 ld;d0!=0 LnL0L1L2 4C]S)
 
-[li;ia d[>]a=> d[<]a=< d[+]a=+ d[-]a=- d[.]a=. d[,]a=, d[(]a=( d[)]a=) li1+dsi ;ia0!=M]SM lMx LM1C	#main loop
+[li;ia d[>]a=> d[<]a=< d[+]a=+ d[-]a=- d[.]a=. d[,]a=, d[(]a=( [)]a=) li1+dsi ;ia0!=M]SM lMx LM1C	#main loop
 
 Li Ld L> L< L+ L- L. L, L( L) 10C	#clean up registers
 Lww}	#restore parameters
