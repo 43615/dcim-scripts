@@ -1,0 +1,29 @@
+# DCIM BRAINFUCK INTERPRETER
+# https://github.com/43615/dcim-scripts
+
+# Input: One string containing a Brainfuck script.
+#	Attention: Because [ and ] are reserved for string escaping in dcim, ( and ) must be used instead.
+#	Allowed commands, everything else is ignored: > < + - . , ( )
+# Output: Printing according to the Brainfuck script.
+# Brainfuck engine specification: Unlimited unsigned byte array initialized to 0, data pointer starting at the leftmost cell.
+# ',' is implemented using dcim '?' and thus takes the lowest byte of a number.
+
+{WSw9w	#save old parameters, set W to 9 bits for efficiency
+
+0Si [1~r lid3R:i 1+si dg0!=I]SI lIx LI2C 0ali:i 0si	#move instructions into array i, reg i: inst pointer
+0Sd	#data array and pointer
+
+#instruction routines:
+[ld1+sd]S>
+[ld1- [1+]S0 d_1=0 L01C sd]S<
+[ld d;d 1+256% r:d]S+
+[ld d;d [256+]S0 1- d_1=0 L01C r:d]S-
+[ld;d an]S.
+[? [256+ d0>0]S0 d0>0 L01C 256% ld:d]S,
+[1Sn [li1+dsi ;ia d[(]a=1 [)]a=2 ln0!=0]S0 [ln1+sn]S1 [ln1-sn]S2 ld;d0=0 LnL0L1L2 4C]S(
+[1Sn [li1-dsi ;ia d[)]a=1 [(]a=2 ln0!=0]S0 [ln1+sn]S1 [ln1-sn]S2 ld;d0!=0 LnL0L1L2 4C]S)
+
+[li;ia d[>]a=> d[<]a=< d[+]a=+ d[-]a=- d[.]a=. d[,]a=, d[(]a=( d[)]a=) li1+dsi ;ia0!=M]SM lMx LM1C	#main loop
+
+Li Ld L> L< L+ L- L. L, L( L) 10C	#clean up registers
+Lww}	#restore parameters
