@@ -14,4 +14,5 @@ To not mess up the existing working environment when executed using `&`, "safe" 
 ## Minimized versions
 The `min` directory contains functionally identical versions of scripts with all comments and unnecessary whitespace removed.
 ## List of scripts
+- `autoprint.dcim`: Enters a prompt loop (like interactive mode) and prints the whole stack after every action.
 - `brainfuck.dcim`: Brainfuck interpreter. `[` and `]` are replaced with `(` and `)`.
