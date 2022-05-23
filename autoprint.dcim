@@ -1,4 +1,4 @@
 #https://github.com/43615/dcim-scripts
 #Prompt loop that automatically prints the main stack after every action, with line spacing.
 #Safety: Overwrites register '?'(63) for its code and keeps it forever.
-[[> ]n?10anf10anl?x]s?l?x
+[[> ]n?[]Pf[]Pl?x]s?l?x
