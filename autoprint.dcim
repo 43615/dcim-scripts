@@ -1,4 +1,4 @@
-#https://github.com/43615/dcim-scripts
-#Prompt loop that automatically prints the main stack after every action, with line spacing.
-#Safety: Unsafe, uses register '?'(63) for its code. Can be exited and cleaned up with "2QL?1C"
+# https://github.com/43615/dcim-scripts
+# Prompt loop that automatically prints the main stack after every action, with line spacing.
+# Safety: Unsafe, uses register '?'(63) for its code. Can be exited and cleaned up with "2QL?1C"
 [[> ]n?[]Pf[]Pl?x]S?l?x
