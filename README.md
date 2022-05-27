@@ -6,7 +6,7 @@ To not mess up the existing working environment when executed using `&`, "safe" 
   - Start with `{` and end with `}`.
   - Manually save and restore the working precision if changing it is necessary.
 - Not affect the pre-existing contents of the stack and registers:
-  - Be careful with the stack, use `C` instead of `c`.
+  - Be careful with the stack, use `C` instead of `c` or temporarily move it to a register.
   - *Push* macros to registers (`SR` instead of `sR`).
   - Clean up registers after finishing (`LR` and `C`).
 - Document their expected inputs and outputs.
