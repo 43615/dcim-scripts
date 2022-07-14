@@ -1,5 +1,5 @@
 # dcim-scripts
-Collection of scripts in dcim, my stack machine language
+Collection of scripts in dc:im, my stack machine language
 ## Safety guidelines
 To not mess up the existing working environment when executed using `&`, "safe" scripts should:
 - Preserve the environment parameters:
