@@ -1,0 +1,31 @@
+31 28 31 30 31 30 31 31 30 31 30 31 12sm[lm:mlm1-sm]12X	#init months
+[January][February][March][April][May][June][July][August][September][October][November][December] 12sm[lm:nlm1-sm]12X
+1sm	#start with jan
+
+[Enter year: ]n?
+
+[28 2:m]s8 [29 2:m]s9	#leap year rules
+d4%0=9
+d100%0=8
+d400%0=9
+
+100~1-sysc	#weekday of 01-01, 7=0
+ly4%5*1+ly3*+lc4%5*+7%sd
+
+[7+]s7	#helpers
+[[ ]r+]s0
+[[]P]sl
+
+[	#main routine for each month
+lm;n dg21r-2~1C [ ]r* r+P	#print month name centered
+[Mo Tu We Th Fr Sa Su]P
+
+[   ] ld1- d0>7 *n	#padding before 1st
+
+1[	#print days
+d"dg1=0[ ]+n
+ld0=l
+ld1+7%sd 1+]lm;mX
+
+c[]dPP
+lm1+sm]12X?
