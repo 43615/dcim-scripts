@@ -18,5 +18,5 @@ The `min` directory contains functionally identical versions of scripts with all
 - `brainfuck.dcim`: Brainfuck interpreter. `[` and `]` are replaced with `(` and `)`.
 - `bintree.dcim`: Prompts for a number, generates and prints a "binary tree" pattern of that degree. Unsafe, intended for one-off usage.
   - Degree 4 example: `1 2 1 3 1 2 1 4 1 2 1 3 1 2 1`
-- `calgen.dcim`: Prints the calendar of a given year. Unsafe, intended for one-off usage.
+- `calendar.dcim`: Prints the calendar of a given year. Unsafe, intended for one-off usage.
   - Gregorian calendar, only correct after 1582 AD.
