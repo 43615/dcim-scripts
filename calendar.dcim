@@ -12,7 +12,6 @@ d400%0=9
 
 4%5*1+ly100%4*+ly400%6*+7%sd	#weekday of 1st jan
 
-
 [7+]s7	#helpers
 [[ ]r+]s0
 [[]P]sl
