@@ -1,0 +1,20 @@
+[Desired number: ]n?
+[1]s1 [Error reduction factor: ]n? z1=1 sf	#1 if omitted
+[[Input is 0!]n?q]s0 d0=0	#edge case
+[_1*]s| d0>|	#absolute value
+dsx1-se	#init error
+1dsasb	#init approx
+
+[se lan[ / ]nlbP [Error: ]nlEP ?]sn	#new best found, print and pause
+
+#helpers for iteration
+[la1+sa]sA
+[lb1+sb]sB
+[[Exact!]n?q]sC
+
+[
+lxlalb/-dsE	#compute ratio and error
+d0>|	#abs of error
+dlf*le>nc	#decide if better than previous
+lE d0<A d0>B 0=C	#decide how to improve
+llx]slllx
