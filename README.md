@@ -9,4 +9,4 @@ The `min` directory contains functionally identical versions of scripts with all
   - Degree 4 example: `1 2 1 3 1 2 1 4 1 2 1 3 1 2 1`
 - `calendar.dcim`: Prints the calendar of a given year. Unsafe, intended for one-off usage.
   - Gregorian calendar, only correct after 1582 AD.
-- `approx.dcim`: Approximates any positive number as a rational. Generates successively better approximations until exact equality is reached. The "error reduction factor" dictates how many times closer a new approximation needs to be before it is accepted (1 if omitted).
+- `approx.dcim`: Approximates any positive number as a rational. Generates successively better approximations until exact equality is reached. The "error reduction factor" dictates how many times closer a new approximation needs to be before it is accepted (1 if omitted). Higher values make it converge faster, but also increase the chance of missing a useful approximation you want.
