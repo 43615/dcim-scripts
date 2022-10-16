@@ -10,7 +10,7 @@ dsx1-se	#init error
 #helpers for iteration
 [la1+sa]sA
 [lb1+sb]sB
-[[Exact!]n?q]sC
+[[Exact solution: ]n lan[ / ]nlbn ?q]sC
 
 [
 lxlalb/-dsE	#compute ratio and error
