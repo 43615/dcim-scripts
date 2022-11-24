@@ -2,7 +2,7 @@
 [1]s1 [Error reduction factor: ]n? z1=1 sf	#1 if omitted
 [[Input is 0!]n?q]s0 d0=0	#edge case
 [_1*]s| d0>|	#absolute value
-dsx1-se	#init error
+dsx1-d0>|se	#init error
 1dsasb	#init approx
 
 [se lan[ / ]nlbP [Error: ]nlEP ?]sn	#new best found, print and pause
