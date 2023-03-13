@@ -4,7 +4,6 @@ Collection of scripts in dc:im, my stack machine language
 The `min` directory contains functionally identical versions of scripts with all comments and unnecessary whitespace removed.
 ## List of scripts
 - `autoprint.dcim`: Enters a prompt loop (like interactive mode) and prints the whole stack after every action. Exit and cleanup: `2QL?1C`.
-- `brainfuck.dcim`: Brainfuck interpreter. `[` and `]` are replaced with `(` and `)`.
 - `bintree.dcim`: Prompts for a number, generates and prints a "binary tree" pattern of that degree. Also known as the "ruler function" or the optimal solution for a Tower of Hanoi puzzle.
   - Degree 4 example: `1 2 1 3 1 2 1 4 1 2 1 3 1 2 1`
 - `calendar.dcim`: Prints the calendar of a given year.
