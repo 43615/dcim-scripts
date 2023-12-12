@@ -1,5 +1,7 @@
 # dcim-scripts
-Collection of scripts in dc:im, my stack machine language
+Collection of scripts in dc:im, my stack machine language.
+
+These are definitely not written optimally for the latest language version, but should still work.
 ## Minimized versions
 The `min` directory contains functionally identical versions of scripts with all comments and unnecessary whitespace removed.
 ## List of scripts
